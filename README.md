@@ -3,7 +3,9 @@
 ## Feature description
 ### Demographic data header
 * Age(number)
-* Gender(number)
+* Gender(1, 2)  
+1: man  
+2: woman  
 * Education(number)
 * Alcohol_per_month(number)  
 Number of alcohol consumption per month
@@ -30,7 +32,8 @@ Each score is calculated between 0 to 28(severe).
 * ISI_7(number)
 
 ### Patient Health Questionnaire-9(PHQ_X)
-PHQ_0~7 shows PHQ-9 score measured during the experiment period. PHQ_F shows PHQ-9 score measured after the experiment period.
+PHQ_0~7 shows PHQ-9 score measured during the experiment period. 
+PHQ_F shows PHQ-9 score measured after the experiment period.
 Each score is calculated between 0 to 27(severe).
 * PHQ_0(number)
 * PHQ_3(number)
@@ -47,13 +50,13 @@ Each value is calculated between 0 to 1
 shows merged SE of week 2 and 3
 * SE_4(ratio)
 * SE_5(ratio)
-* SE_45(ratio)
+* SE_45(ratio)  
 shows merged SE of week 4 and 5
 * SE_6(ratio)
 * SE_7(ratio)
-* SE_67(ratio)
+* SE_67(ratio)  
 shows merged SE of week 6 and 7
-* SE_4567(ratio)
+* SE_4567(ratio)  
 shows merged SE of week 4, 5, 6, 7
 
 ### Wake after sleep onset(WASO_X)
