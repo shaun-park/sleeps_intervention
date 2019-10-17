@@ -98,8 +98,7 @@ Total sleep time(TST) factor indicates total length of sleep time in minutes.
 * TST_67(min)
 * TST_4567(min)
 
-### Compliance separator
-* Compliance_good1(None, 1, 2)
-Participants of online-based education: None;
-Participants with good compliance: 1;
-Participants with bad compliance: 2  
+### Compliance separator: Compliance_good1(None, 1, 2)
+* Participants of online-based education: None
+* Participants with good compliance: 1
+* Participants with bad compliance: 2  
