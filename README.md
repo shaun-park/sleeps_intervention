@@ -26,8 +26,6 @@ ISI_B shows baseline ISI score before experiment, and ISI_0~7 shows ISI score me
 ISI_F shows ISI score measured after the experiment period. 
 Each score is calculated between 0 to 28(severe).
 * ISI_B(number)  
-* ISI_0(number)
-* ISI_3(number)
 * ISI_5(number)
 * ISI_7(number)
 
@@ -35,9 +33,7 @@ Each score is calculated between 0 to 28(severe).
 PHQ_0~7 shows PHQ-9 score measured during the experiment period. 
 PHQ_F shows PHQ-9 score measured after the experiment period.
 Each score is calculated between 0 to 27(severe).
-* PHQ_0(number)
-* PHQ_3(number)
-* PHQ_5(number)
+* PHQ_B(number)
 * PHQ_7(number)
 * PHQ_F(number)
 
@@ -56,8 +52,6 @@ shows merged SE of week 4 and 5
 * SE_7(ratio)
 * SE_67(ratio)  
 shows merged SE of week 6 and 7
-* SE_4567(ratio)  
-shows merged SE of week 4, 5, 6, 7
 
 ### Wake after sleep onset(WASO_X)
 Wake after sleep onset(WASO) is defined by the time participants spend awake after initially falling asleep and before they wake up.
@@ -70,7 +64,6 @@ Wake after sleep onset(WASO) is defined by the time participants spend awake aft
 * WASO_6(min)
 * WASO_7(min)
 * WASO_67(min)
-* WASO_4567(min)
 
 ### Number of Awakenings(AWAN_X)
 Number of Awakenings(AWAN) factor indicates number af awakenings during sleep.
@@ -83,7 +76,6 @@ Number of Awakenings(AWAN) factor indicates number af awakenings during sleep.
 * AWAN_6(number)
 * AWAN_7(number)
 * AWAN_67(number)
-* AWAN_4567(number)
 
 ### Total sleep time(TST_X)
 Total sleep time(TST) factor indicates total length of sleep time in minutes. 
@@ -96,7 +88,6 @@ Total sleep time(TST) factor indicates total length of sleep time in minutes.
 * TST_6(min)
 * TST_7(min)
 * TST_67(min)
-* TST_4567(min)
 
 ### Compliance separator(Compliance_good1: None; 1; 2)
 * Participants of online-based education: None
