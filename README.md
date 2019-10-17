@@ -34,8 +34,8 @@ PHQ_0~7 shows PHQ-9 score measured during the experiment period.
 PHQ_F shows PHQ-9 score measured after the experiment period.
 Each score is calculated between 0 to 27(severe).
 * PHQ_B(number)
+* PHQ_5(number)
 * PHQ_7(number)
-* PHQ_F(number)
 
 ### Sleep Efficiency(SE_XX)
 Sleep efficiency(SE) value is measured by _sleep_min / onbed_min_, as a ratio.
